@@ -1,23 +1,41 @@
 ---
-title: Bloom Box
-publishDate: 2019-12-01 00:00:00
+title: House Prediction
+publishDate: 2023-02-02 07:04:45
 img: /assets/stock-2.jpg
 img_alt: A bright pink sheet of paper used to wrap flowers curves in front of rich blue background
 description: |
-  We paired with a cutting-edge music API and a team of horticulturalists
-  to build AI-generated playlists that maximize houseplant health.
+  Developed a Python-based tool to scrape housing data from a website using BeautifulSoup and requests. Utilized pandas, NumPy for data manipulation and performed exploratory data analysis to identify key market trends
 tags:
-  - Dev
-  - Branding
-  - Backend
+  - Data analytics
+  - Web scraping
+  - Data visualization
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur posuere commodo venenatis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam non ligula vel metus efficitur hendrerit. In hac habitasse platea dictumst. Praesent et mauris ut mi dapibus semper. Curabitur tortor justo, efficitur sit amet pretium cursus, porta eget odio. Cras ac venenatis dolor. Donec laoreet posuere malesuada. Curabitur nec mi tempor, placerat leo sit amet, tincidunt est. Quisque pellentesque venenatis magna, eget tristique nibh pulvinar in. Vestibulum vitae volutpat arcu. Aenean ut malesuada odio, sit amet pellentesque odio. Suspendisse nunc elit, blandit nec hendrerit non, aliquet at magna. Donec id leo ut nulla sagittis sodales.
+In this comprehensive project, Python serves as the primary tool for gathering and analyzing data sourced from a housing research website, providing invaluable insights into the real estate market.
 
-Integer vitae nibh elit. Suspendisse eget urna eu neque bibendum pharetra. Sed interdum lectus sem, in pulvinar magna dignissim vel. Quisque maximus at urna nec laoreet. Suspendisse potenti. Vestibulum rhoncus sem ut mi pellentesque, in vestibulum erat blandit. Aliquam sodales dui ac maximus consectetur. Duis quis est vehicula, imperdiet nisl nec, fermentum erat. Duis tortor diam, pharetra eu euismod in, vehicula non eros. Curabitur facilisis dui at erat ultrices gravida. In at nunc ultricies, pulvinar mi vel, sagittis mauris. Praesent pharetra posuere purus ac imperdiet. Nulla facilisi.
+Libraries Utilized:
 
-Sed pulvinar porttitor mi in ultricies. Etiam non dolor gravida eros pulvinar pellentesque et dictum ex. Proin eu ornare ligula, sed condimentum dui. Vivamus tincidunt tellus mi, sed semper ipsum pharetra a. Suspendisse sollicitudin at sapien nec volutpat. Etiam justo urna, laoreet ac lacus sed, ultricies facilisis dolor. Integer posuere, metus vel viverra gravida, risus elit ornare magna, id feugiat erat risus ullamcorper libero. Proin vitae diam auctor, laoreet lorem vitae, varius tellus.
+BeautifulSoup (bs4): Employed for parsing HTML and XML documents, facilitating seamless data extraction.
+Pandas: A versatile library instrumental in data manipulation and analysis, enabling efficient handling of datasets.
+NumPy: Leveraged for executing mathematical operations on arrays and matrices, enhancing computational efficiency.
+Requests: Empowered the project with the capability to make HTTP requests to websites, facilitating data retrieval.
+Regular Expressions (re): Facilitated pattern matching and string manipulation, streamlining data processing tasks.
+Seaborn: A powerful data visualization library built on top of Matplotlib, enabling the creation of insightful visualizations.
+Matplotlib: Provided essential plotting capabilities, enabling the creation of static, animated, and interactive visualizations.
+Sample of Researches Conducted:
 
-Mauris sed eros in ex maximus volutpat. Suspendisse potenti. Donec lacinia justo consectetur sagittis tempor. Proin ullamcorper nisi vitae auctor rhoncus. Sed tristique aliquam augue. Pellentesque vitae fringilla ligula. Nulla arcu elit, efficitur eu nunc malesuada, eleifend tincidunt orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer mattis orci in bibendum ultricies. Quisque a dui erat. Phasellus et vulputate ipsum. Proin metus ex, lobortis nec ornare eget, bibendum ut sapien. Aliquam in dolor lobortis, aliquam tellus a, congue augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Exploratory Data Analysis: Unveiling hidden patterns and trends within the dataset to gain a comprehensive understanding of the housing market dynamics.
+Price Distribution Across Houses: Analyzing the distribution of house prices to identify common price ranges and outliers.
+Average Increase in House Price for Each City: Evaluating the average increase in house prices across different cities, providing valuable insights for investors.
+Factors Affecting House Prices: Investigating various factors influencing house prices, ranging from location to property characteristics.
+Average Housing Prices by Cities: Comparing the average housing prices across different cities to identify lucrative investment opportunities.
+Effects of Bedroom Count on House Prices: Assessing the impact of the number of bedrooms on house prices, aiding in property valuation.
+Average Bath per Price: Examining the relationship between the number of bathrooms and house prices to discern buyer preferences.
+County-wise Average Price per Square Feet: Analyzing the average price per square foot across different counties, offering valuable insights for buyers and sellers.
+Models Utilized:
 
-Aenean pretium purus augue, ut bibendum erat convallis quis. Cras condimentum quis velit ac mollis. Suspendisse non purus fringilla, venenatis nisl porta, finibus odio. Curabitur aliquet metus faucibus libero interdum euismod. Morbi sed magna nisl. Morbi odio nibh, facilisis vel sapien eu, tempus tincidunt erat. Nullam erat velit, sagittis at purus quis, tristique scelerisque tortor. Pellentesque lacinia tortor id est aliquam viverra. Vestibulum et diam ac ipsum mollis fringilla.
+OLS (Ordinary Least Squares) - Multiple Linear Regression: Employed for predictive modeling, enabling the estimation of house prices based on multiple variables.
+
+Residual Plots: Utilized to assess the goodness of fit of the regression model, aiding in identifying potential areas for model improvement.
+
+This project exemplifies the power of Python programming in conducting comprehensive data analysis, offering invaluable insights into the intricate dynamics of the housing market and empowering stakeholders to make informed decisions.
